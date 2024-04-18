@@ -1,0 +1,71 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: var(--light-cyan);
+  color: var(--federal-blue);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: var(--honolulu-blue);
+  margin-top: 2rem;
+  font-weight: 700; /* bold */
+}
+
+section {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: var(--non-photo-blue);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: var(--federal-blue);
+  margin-top: 0;
+  font-weight: 700; /* bold */
+}
+
+/* Input Styles */
+#new-task {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--light-cyan);
+  color: var(--federal-blue);
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+/* Task List Styles */
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todo-list li {
+  background-color: var(--pacific-cyan);
+  color: var(--light-cyan);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-list li button {
+  background-color: transparent;
+  border: none;
+  color: var(--light-cyan);
+  font-size: 1rem;
+  cursor: pointer;
+}
